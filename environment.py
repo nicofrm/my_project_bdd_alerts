@@ -1,5 +1,5 @@
-from my_project_bdd_alerte.pages.alerts_page import AlertsPage
-from my_project_bdd_alerte.pages.home_page import HomePage
+from pages.alerts_page import AlertsPage
+from pages.home_page import HomePage
 
 
 def before_all(context):
