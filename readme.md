@@ -29,3 +29,7 @@ from selenium.webdriver.common.by import By
 from behave import *  
 from browser import Browser  
 from seleniumbase import Driver
+
+## 3. Running the tests
+- can be done by running the entire test suite, which will start the running of all the tests in the classes that were called in the test suite  
+- the running will be done based on a runner defined as an instance of class HTMLTestRunner  
