@@ -7,7 +7,7 @@ pip install html-testRunner
 pip install seleniumbase
 pip install behave
 pip install behave-html-testRunner
-Install plugins: ***gherkin***, ***cucumber*** and ***behave.ini***
+Install plugins: gherkin, cucumber and behave.ini
 
 ### b) Define test structure
 test_files (starting with test_)
