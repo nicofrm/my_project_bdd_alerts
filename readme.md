@@ -31,8 +31,10 @@ from browser import Browser
 from seleniumbase import Driver
 
 ## 3. Running the tests
-- can be done by running the entire test suite, which will start the running of all the tests in the classes that were called in the test suite  
-- the running will be done based on a runner defined as an instance of class HTMLTestRunner  
+- can be done by running each scenario at a time using tags (example: --tags=T1)
+- can be done by running all the scenarios from feature file, following command will be performed:
+              behave -f behave_html_formatter:HTMLFormatter -o behave-report.html
+   
 
 ## 4. Test results 
 Through running the test suites we have obtained a number of three executed tests, two passed and two failed. The tests that were passed were the following:
