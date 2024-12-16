@@ -5,10 +5,9 @@ Feature: I want to validate alerts into my application
     When I click on the Java Script Alerts link
 
   Scenario: Validate that I can accept an alert
-    And I click on the JS Alert Button
+    When I click on the JS Alert Button
     And I accept the alert
     Then I should see the text "You successfully clicked an alert"
-
 
   Scenario: Validate that I can cancel an alert
     When I click on the Java Script Alerts link
@@ -16,7 +15,7 @@ Feature: I want to validate alerts into my application
     And I cancel the alert
     Then I should see the text "You clicked: Cancel"
 
- Scenario: Validate that I can cancel an alert
+  Scenario: Validate that I can cancel an alert
     When I click on the Java Script Alerts link
     And I click on the JS Prompt Button
     And I insert text "I insert a test text" into the alert prompt and I click ok
