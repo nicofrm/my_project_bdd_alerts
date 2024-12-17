@@ -33,7 +33,7 @@ from seleniumbase import Driver
 ## 3. Running the tests
 - can be done by running each scenario at a time using tags (example: --tags=T1)
 - can be done by running all the scenarios from feature file, following command will be performed:
-      - behave -f behave_html_formatter:HTMLFormatter -o behave-report.html
+        - behave -f behave_html_formatter:HTMLFormatter -o behave-report.html
    
 
 ## 4. Test results 
@@ -42,8 +42,8 @@ Through running the test suites I have obtained a number of: 1 feature passed, 3
 
 
 ## 5. Performance indicators:
-   - in order to make the code more efficient the most suitable selectors were found in order to be able to identify the web elements in consequence, id or link text selectors were used as means of identification, except 
-     when the specifics of a web element required otherwise Also, CSS selector was preferred and XPATH selector since it is usually faster. Nevertheless, whenever we needed to search for an element that was not able to be 
-    found with CSS selector XPATH selector is used
+   - in order to make the code more efficient the most suitable selectors were used in order to be able to identify the web elements in consequence, id or link text selectors were used as means of identification, except 
+     when the specifics of a web element required otherwise.
+   - Also, CSS selector was preferred and XPATH selector since it is usually faster. Nevertheless, whenever we needed to search for an element that was not able to be found with CSS selector XPATH selector is used
   
 
