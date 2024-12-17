@@ -37,10 +37,9 @@ from seleniumbase import Driver
    
 
 ## 4. Test results 
-Through running the test suites we have obtained a number of three executed tests, two passed and two failed. The tests that were passed were the following:
-test_sorting_by_price_descending
-test_check_sign_in_not_possible_when_user_and_pass_empty
-The test that was failed was test_check_search_results The test was failed because the title of the search results products was not always in correspondence to the search criteria For testing purposes we can consider this as a correct result since the test was properly designed to validate that all the products have the search criteria in the title In real life, this might be an expected behaviour because the search criteria might coincide with some product parameters, even if the search criteria is not in the title, in which case we would have to clarify the expected behaviour with a business analyst
+Through running the test suites we have obtained a number of 1 feature passed, 3 scenarios passed and 15 steps passed. 
+![image](https://github.com/user-attachments/assets/d14c35e6-62b7-4cde-9fb2-6d9e1e4df21b)
+
 
 ## 5. Performance indicators:
    - in order to make the code more efficient the most suitable selectors were found in order to be able to identify the web elements in consequence, id or link text selectors were used as means of identification, except 
