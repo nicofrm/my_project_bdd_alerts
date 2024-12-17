@@ -12,8 +12,8 @@ Install plugins: gherkin, cucumber and behave.ini
 ### b) Define test structure
 Create following files:  
 feature files = are descriptive files that contain BDD scenarios  
-page files = are files that contain all elements which are interacting with web pages  
-step definition files = are those files that make the connection between feature files and page files  
+page files = are files that contain all elements which are interacting with web pages 
+steps definition files = are those files that make the connection between feature files and page files  
 
 After we have above packages created, we have the following steps:  
    - create the browser file (the browser file has the extension .py and is done at the package level with BDD)
@@ -33,18 +33,17 @@ from seleniumbase import Driver
 ## 3. Running the tests
 - can be done by running each scenario at a time using tags (example: --tags=T1)
 - can be done by running all the scenarios from feature file, following command will be performed:
-              behave -f behave_html_formatter:HTMLFormatter -o behave-report.html
+      behave -f behave_html_formatter:HTMLFormatter -o behave-report.html
    
 
 ## 4. Test results 
-Through running the test suites we have obtained a number of 1 feature passed, 3 scenarios passed and 15 steps passed. 
+Through running the test suites I have obtained a number of: 1 feature passed, 3 scenarios passed and 15 steps passed. 
 ![image](https://github.com/user-attachments/assets/d14c35e6-62b7-4cde-9fb2-6d9e1e4df21b)
 
 
 ## 5. Performance indicators:
    - in order to make the code more efficient the most suitable selectors were found in order to be able to identify the web elements in consequence, id or link text selectors were used as means of identification, except 
-     when the specifics of a web element required otherwise Also, CSS selector was preferred to XPATH selector since it is usually faster. Nevertheless, whenever we needed to search for an element that was not able to be 
-    found with CSS selector XPATH selector was used
-   - in order to make the execution more efficient we have used elements like break in order to avoid unnecessary loop execution and also tried to make variable assignment only when needed, reducing variable reassignment 
-     to a minimum
-   - also, the usage of a sleep instruction was reduced as much as possible and as a general trend the waits are to be preferred to the sleep instruction
+     when the specifics of a web element required otherwise Also, CSS selector was preferred and XPATH selector since it is usually faster. Nevertheless, whenever we needed to search for an element that was not able to be 
+    found with CSS selector XPATH selector is used
+  
+
