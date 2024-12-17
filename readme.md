@@ -32,8 +32,8 @@ from seleniumbase import Driver
 
 ## 3. Running the tests
 - can be done by running each scenario at a time using tags (example: --tags=T1)
-- can be done by running all the scenarios from feature file, following command will be performed: <br>       
-          - behave -f behave_html_formatter:HTMLFormatter -o behave-report.html
+- can be done by running all the scenarios from feature file, following command will be performed: <br>
+      behave -f behave_html_formatter:HTMLFormatter -o behave-report.html
    
 
 ## 4. Test results 
