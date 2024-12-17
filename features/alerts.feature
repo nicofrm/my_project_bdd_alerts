@@ -10,13 +10,11 @@ Feature: I want to validate alerts into my application
     Then I should see the text "You successfully clicked an alert"
 
   Scenario: Validate that I can cancel an alert
-    When I click on the Java Script Alerts link
-    And I click on the JS Confirm Button
+    When I click on the JS Confirm Button
     And I cancel the alert
     Then I should see the text "You clicked: Cancel"
 
   Scenario: Validate that I can cancel an alert
-    When I click on the Java Script Alerts link
-    And I click on the JS Prompt Button
+    When I click on the JS Prompt Button
     And I insert text "I insert a test text" into the alert prompt and I click ok
     Then I should see the text "You entered: I insert a test text"
